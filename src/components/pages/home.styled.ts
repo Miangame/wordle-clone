@@ -4,10 +4,15 @@ import { colors } from '../../theme/colors'
 import { media } from '../../theme/media'
 
 export const Wrapper = styled.div`
+  padding: 24px 0;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
+
+  ${media.greaterThan('md')`
+    padding: 32px 0;
+  `}
 `
 
 export const Body = styled.div`

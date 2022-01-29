@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
   html, body {
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
+    overflow: hidden;
   }
   body {
     #__next {
